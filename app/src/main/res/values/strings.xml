@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BusinessCard</string>
+
+    <string name="business_name">Black &amp; Bloom</string>
+
+    <string name="business_info">We are first artisan espressobar in Groningen. We serve Insanely good coffee from all over the world roasted by the best roasters in Europe.</string>
+
+    <string name="contact_info">Contact Info</string>
+
+    <string name="adress">Oude Kijk in ‘t Jatstraat 32\n9712 EK Groningen\nNetherlands</string>
+
+    <string name="phone_email">Telephone: +31 (0)613165788/nE-mail: roy.kuilder@gmail.com</string>
+
+    <string name="opening_hours">Opening Times:\nMon – Fri: 8:30 am – 6:00 pm\nSat: 9:00 am – 6:00 pm\nSun: 11.00 am – 5.00 pm</string>
+</resources>

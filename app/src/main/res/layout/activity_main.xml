@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e8e6d7"
+    tools:context="com.example.android.businesscard.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/walpaper_black_bloom" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="24dp"
+                android:background="#88111111" />
+
+
+            <LinearLayout style="@style/border">
+
+                <TextView
+                    style="@style/header_text"
+                    android:text="@string/business_name" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/border_body">
+
+                <TextView
+                    style="@style/body_text"
+                    android:text="@string/business_info" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/border">
+
+                <TextView
+                    style="@style/header_text"
+                    android:text="@string/contact_info" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/border_body">
+
+                <TextView
+                    style="@style/body_text"
+                    android:text="@string/opening_hours" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/border_body">
+
+                <TextView
+                    style="@style/body_text"
+                    android:text="@string/phone_email" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/border_body">
+
+                <TextView
+                    style="@style/body_text"
+                    android:text="@string/adress" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="24dp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="208dp"
+            android:src="@drawable/blackbloomlogo" />
+
+    </RelativeLayout>
+
+</ScrollView>
